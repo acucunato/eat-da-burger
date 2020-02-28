@@ -1,19 +1,20 @@
-// Import the ORM to create functions that will interact with the database.
+//backend burger app
 var orm = require("../config/orm.js");
 
 var burger = {
-  selectAll: function(cb) {
-    orm.all("burgers", function(res) {
+  // Select everything from the burgers table
+  selectAll: function(table, cb) {
+    orm.selectAll("burgers", function(res) {
       cb(res);
     });
   },
-  insertOne: function(cols, vals, cb) {
-    orm.create("burgers", cols, vals, function(res) {
+  insertOne: function(colName, valOfCol, cb) {
+    orm.insertOne("burgers", colName, valOfCol, function(res) {
       cb(res);
     });
   },
-  updateOne: function(objColVals, condition, cb) {
-    orm.update("burgers", objColVals, condition, function(res) {
+  updateOne: function(valOfCol, condition, cb) {
+    orm.updateOne("burgers", valOfCol, condition, function(res) {
       cb(res);
     });
   }

@@ -1,0 +1,23 @@
+.heading,
+h3 {
+  font-family: "Luckiest Guy";
+}
+
+.burger-div,
+.burger-input {
+  font-family: "Raleway";
+}
+
+html {
+  margin: 20px;
+}
+html,
+body,
+.container-flex {
+  background-color: #f8c471;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
