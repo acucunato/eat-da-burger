@@ -17,7 +17,7 @@ A burger logger application using MySQL, Node, Express, Handlebars and a homemad
 
 ## Demo
 
-![Note-Taker Gif](./img/note-taker.gif "Note-Taker-gif")
+![Eat-Da-Burger](public/assets/img/burgergif.gif "Eat-da-burger gif")
 
 ## Tech used
 
