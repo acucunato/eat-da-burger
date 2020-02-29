@@ -8,7 +8,7 @@ A burger logger application using MySQL, Node, Express, Handlebars and a homemad
 
 ## Utilizing the App
 
-- View the app: [Here](htt "Here")
+- View the app: [Here](https://eatdaburger-acucunato.herokuapp.com/ "Here")
 
 - User can enter a burger name then click "Add Burger". This also updates the MySQL database with the new burger entry.
 - The burger will be added to the "Burgers to Devour!" section.
